@@ -4,7 +4,8 @@
   "description": "image uploader challenge",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node"
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "Brayan Perez",
