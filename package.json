@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
-    "build":"babel src -d dist",
+    "build": "babel src -d dist",
     "start": "node ./dist"
   },
   "keywords": [],
   "author": "Brayan Perez",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.16.3",
     "cloudinary": "^1.27.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
